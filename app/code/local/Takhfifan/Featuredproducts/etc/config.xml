@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Takhfifan_Featuredproducts>
+      <version>1.0</version>
+    </Takhfifan_Featuredproducts>
+  </modules>
+  <global>
+    <blocks>
+      <featuredproducts>
+        <class>Takhfifan_Featuredproducts_Block</class>
+      </featuredproducts>
+    </blocks>
+    <models>
+      <featuredproducts>
+        <class>Takhfifan_Featuredproducts_Model</class>
+      </featuredproducts>
+    </models>
+  </global>
+</config>

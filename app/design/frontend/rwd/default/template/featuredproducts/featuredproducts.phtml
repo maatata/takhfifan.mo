@@ -1,0 +1,22 @@
+<?php
+/*
+This is the template created for this module to show
+all featured products return by the model
+
+Created By: Mohammad Bagheri
+Email: m.bagheri1987@gmail.com
+*/
+$products = $this->getFeaturedProducts();
+?>
+ 
+<div id="product_list">
+  	<?php if(is_array($products) AND count($products)): ?>
+  		<?php foreach($products AS $product): ?>
+	  		<div>
+	  			<a href="<?php echo $product['url']; ?>" >
+	  				<?php echo $product['name']; ?>
+	  			</a>
+	  		</div>
+	    <?php endforeach; ?>
+  	<?php endif; ?>
+</div>

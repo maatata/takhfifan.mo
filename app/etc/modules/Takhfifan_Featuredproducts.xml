@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Takhfifan_Featuredproducts>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Takhfifan_Featuredproducts>
+  </modules>
+</config>
