@@ -6,15 +6,45 @@
     </Takhfifan_Featuredproducts>
   </modules>
   <global>
+    
     <blocks>
       <featuredproducts>
         <class>Takhfifan_Featuredproducts_Block</class>
       </featuredproducts>
     </blocks>
+
     <models>
       <featuredproducts>
         <class>Takhfifan_Featuredproducts_Model</class>
       </featuredproducts>
     </models>
+
+    <resources>
+
+      <featuredproducts_setup>
+        <setup>
+          <module>Takhfifan_Featuredproducts</module>
+          <class>Takhfifan_Featuredproducts_Model_Resource_Eav_Mysql4_Setup</class>
+        </setup>
+    
+        <connection>
+          <use>core_setup</use>
+        </connection>
+      </featuredproducts_setup>
+    
+      <featuredproducts_write>
+        <connection>
+          <use>core_write</use>
+        </connection>
+      </featuredproducts_write>
+
+      <featuredproducts_read>
+        <connection>
+          <use>core_read</use>
+        </connection>
+      </featuredproducts_read>
+
+    </resources>
+    
   </global>
 </config>
